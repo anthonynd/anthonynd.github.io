@@ -1,0 +1,62 @@
+/*
+ * Skeleton.css adjustments
+ */
+
+.container {
+  max-width: 800px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+ * Styles
+ */
+
+.title {
+  margin-bottom: 0.1em;
+}
+
+.title-section {
+  margin-bottom: 2em;
+}
+
+.projects,
+.miniprojects,
+.social {
+  margin-bottom: 1em;
+}
+
+.project-title {
+  margin-bottom: 0.4em;
+}
+
+.project-date {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.social {
+  margin-bottom: 10em;
+}
+
+.social p {
+  margin: 0;
+}
+
+
+
+/*
+ * Helper classes
+ */
+
+.header {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  text-align: right;
+}
+
+.semibold {
+  font-weight: 600;
+}
