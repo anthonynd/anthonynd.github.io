@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Anime Tracker</title>
+  <!-- <meta name="description" content=""> -->
+  <meta name="author" content="Anthony Nguyen-Duong">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="css/master.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <!-- Title section
+    ----------------------------------------------------->
+    <div class="row" style="margin-bottom: 10em">
+      <div class="nine columns" style="margin-top: 25%">
+
+        <div style="margin-bottom: 2rem">
+          <h4 class="no-margin">Anime Tracker</h4>
+          <p class="project-date">Feb. 2016</p>
+        </div>
+        <p>
+          <a href="index.html">Back to Homepage</a>
+        </p>
+
+        <a href="http://animelist.anthnd.comxa.com/" class="view-project button" target="_blank">View project</a>
+
+        <!-- Content
+        -------------------------------------------------->
+        <p>
+          The TV list database is a SQL/PHP-focused project
+          which I use to keep track of anime shows that I'm watching, that I
+          plan on watching, completed etc.
+        </p>
+
+        <ul>
+            <li>HTML/CSS</li>
+            <li><a href="http://getbootstrap.com/">Bootstrap</a> for layout and styling</li>
+            <li>JS/jQuery for form handling, connecting to a REST API and search autocomplete</li>
+            <li>The <a href="http://myanimelist.net/modules.php?go=api">MyAnimeList.net API</a> to get series information</li>
+            <li><a href="http://github.hubspot.com/sortable/docs/welcome/">sortable</a> for table sorting</li>
+            <li>PHP for connecting to a MySQL database</li>
+        </ul>
+
+        <p>
+          To being populating your list, you begin by searching for an
+          anime you would like to add to your list and adding it to the
+          category of choice - Plan to Watch, Watching, Completed - and
+          filling out any necessary information. The search utility will
+          display up-to-date information about the series such as number
+          of episodes, airing date etc.
+        </p>
+        <img class="u-max-full-width" src="img/searchandadd.gif" alt="Searching and adding an anime">
+
+        <p>
+          Once in the list, you can perform a variety of actions on the list item.
+          You can mark series that you are particularly enjoying, edit items,
+          increment a series' watching episodes by one etc. The table is fully
+          sortable by any of the criteria shown to help organize your list.
+        </p>
+        <p>Clicking on list items will reveal an image for the series as well as a quick synopsis.</p>
+        <img class="u-max-full-width" src="img/synopsis.gif" alt="Viewing a series' synopsis">
+
+      </div>
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Delivery Management System</title>
+  <!-- <meta name="description" content=""> -->
+  <meta name="author" content="Anthony Nguyen-Duong">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="css/master.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <!-- Title section
+    ----------------------------------------------------->
+    <div class="row" style="margin-bottom: 10em">
+      <div class="nine columns" style="margin-top: 25%">
+        <div style="margin-bottom: 2rem">
+          <h4 class="no-margin">Delivery Management System</h4>
+          <p class="project-date">Feb. 2016</p>
+        </div>
+        <p>
+          <a href="index.html">Back to Homepage</a>
+        </p>
+
+        <!-- Content
+        -------------------------------------------------->
+        <p>
+          A system that I helped develop for La Belle Thailandaise to contact
+          drivers for deliveries.
+        </p>
+
+        <ul>
+            <li><a href="https://www.nexmo.com/">Nexmo</a> SMS PHP SDK to send and receive SMS</li>
+            <li><a href="http://getbootstrap.com/">Bootstrap</a> to layout pages</li>
+            <li>JavaScript, jQuery and AngularJS for client side processing</li>
+            <li>
+              JavaScript <a href="https://developers.google.com/maps/">Google Maps API</a>
+              for delivery location and cost
+            </li>
+            <li>JSON and AJAX to communicate with backend process</li>
+            <li>PHP for backend processing</li>
+            <li>PHP fpdf library to generate delivery bills</li>
+            <li>MySQL for database</li>
+        </ul>
+
+        <p>
+          To contact a delivery driver, you input the customer's address into
+          the Address field - you will get suggestions as you type it out. Once
+          the address has been inputted, it will display the distance from the
+          restaurant as well as the driving fee to pay to the delivery driver.
+        </p>
+
+        <p>
+          From there, you select a delivery person to contact and press the
+          appropriate button. This will send a text message to the selected driver
+          and then the application will wait for a reply within the next 5 minutes.
+          If a reply is received, the driver will be officially associated with
+          the delivery and should come to the restaurant to pickup the food.
+        </p>
+
+        <p>
+            Nice features of this application include things like the text
+            message system - with a panel on the right displaying all incoming
+            and outgoing messages, automatic calculation of driver fees to be
+            paid and every request is saved in a database and can be accessed
+            at anytime and anywhere.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
